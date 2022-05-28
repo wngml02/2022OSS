@@ -5,12 +5,14 @@ if (window.XMLHttpRequest) { // 모질라, 사파리, IE7+ ...
     httpRequest = new ActiveXObject("Microsoft.XMLHTTP");
 }
 
+
 httpRequest.onreadystatechange = nameOfTheFunction;
 if (httpRequest.readyState === XMLHttpRequest.DONE) {
     // 이상 없음, 응답 받았음
 } else {
     // 아직 준비되지 않음
 }
+
 
 
 예시)
